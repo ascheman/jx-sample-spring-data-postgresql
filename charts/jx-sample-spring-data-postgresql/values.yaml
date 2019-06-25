@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.0.8.121:5000/ascheman-jx/jx-sample-spring-data-postgresql
+  tag: 0.1.23
   pullPolicy: IfNotPresent
 service:
   name: jx-sample-spring-data-postgresql
