@@ -8,3 +8,4 @@ metadata:
 data:
   application.properties: |-
     spring.datasource.url=jdbc:postgresql://{{ .Release.Name }}-postgres:5432/postgres
+    spring.datasource.password=
